@@ -26,5 +26,5 @@ sql2 = <<-SQL
   )
 SQL
 
-DBDOG[:conn].execute(sql)
+DBDOG[:conn].execute(sql2)
 DBDOG[:conn].results_as_hash = true
